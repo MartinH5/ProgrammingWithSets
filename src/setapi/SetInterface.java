@@ -5,6 +5,7 @@
  */
 package setapi;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -17,7 +18,7 @@ public interface SetInterface {
     public Set<Integer> union(Set<Integer> set1, Set<Integer> set2);
     public Set<Integer> intersection (Set<Integer> set1, Set<Integer> set2);
     public Set<Integer> difference (Set<Integer> set1, Set<Integer> set2);
-    public Set<Integer> complement (Set<Integer> set);
+    public Set<Integer> complement (List<Integer> set);
      
    
 }
